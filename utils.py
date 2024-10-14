@@ -1,11 +1,17 @@
 import json
 import logging
+import os
 
+from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
+
+
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
 class Utils:
@@ -37,3 +43,11 @@ class Utils:
             texts, convert_to_numpy=False, device=device, show_progress_bar=True
         )
         return embeddings
+
+
+SYSTEM_DESCRIPTION = """
+    Esti un asistent specializat pe legislatia rutiera din Romania si
+    vei raspunde la intrebarile utilizatorilor despre legislatia rutiera
+    ajutandu-te de contextul primit. Foloseste maxim 50 de cuvinte pentru
+    a raspunde la fiecare intrebare.
+"""
