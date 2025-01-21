@@ -1,43 +1,43 @@
 [
     {
-      "întrebare": "Vreau să o iau pe prietena mea de acasă. Am văzut că pe strada ei se lucrează și a apărut un indicator de drum îngustat. Am voie să opresc în fața casei ei ca să o iau?",
-      "răspuns": "Nu, pe sectoarele de drum unde este instalat indicatorul cu semnificația „Drum îngustat” se interzice manevra de oprire voluntară a vehiculelor.",
-      "articole": ["432", "433", "434"]
+      "question": "Vreau să o iau pe prietena mea de acasă. Am văzut că pe strada ei se lucrează și a apărut un indicator de drum îngustat. Am voie să opresc în fața casei ei ca să o iau?",
+      "answer": "Nu, pe sectoarele de drum unde este instalat indicatorul cu semnificația „Drum îngustat” se interzice manevra de oprire voluntară a vehiculelor.",
+      "paragraphs": [432, 433, 434]
     },
     {
-      "întrebare": "Dacă depășesc pe linie continuă îmi iau permisul sau primesc doar amendă?",
-      "răspuns": "Nerespectarea regulilor privind depășirea constituie contravenție și se sancționează cu amendă prevăzută în clasa a 3-a de sancțiuni și cu suspendarea exercitării dreptului de a conduce pentru o perioadă de 60 de zile.",
-      "articole": ["675", "676", "677", "678"]
+      "question": "Dacă depășesc pe linie continuă îmi iau permisul sau primesc doar amendă?",
+      "answer": "Nerespectarea regulilor privind depășirea constituie contravenție și se sancționează cu amendă prevăzută în clasa a 3-a de sancțiuni și cu suspendarea exercitării dreptului de a conduce pentru o perioadă de 60 de zile.",
+      "paragraphs": [675, 676, 677, 678]
     },
     {
-      "întrebare": "Ar trebui să las poliția să treacă dacă are girofarul pornit, dar nu are și sirena?",
-      "răspuns": "Nu, dacă girofarul este pornit, dar nu există semnale sonore, nu ești obligat să îi acorzi prioritate.",
-      "articole": ["92", "93"]
+      "question": "Ar trebui să las poliția să treacă dacă are girofarul pornit, dar nu are și sirena?",
+      "answer": "Nu, dacă girofarul este pornit, dar nu există semnale sonore, nu ești obligat să îi acorzi prioritate.",
+      "paragraphs": [92, 93]
     },
     {
-      "întrebare": "Ce înseamnă dacă polițistul are brațul întins paralel cu pământul?",
-      "răspuns": "Brațul drept al polițistului rutier întins orizontal înseamnă oprire pentru toți participanții la trafic care vin din spatele polițistului. Brațul stâng al polițistului rutier întins orizontal înseamnă oprire pentru toți participanții la trafic care vin din fața polițistului.",
-      "articole": ["81", "82"]
+      "question": "Ce înseamnă dacă polițistul are brațul întins paralel cu pământul?",
+      "answer": "Brațul drept al polițistului rutier întins orizontal înseamnă oprire pentru toți participanții la trafic care vin din spatele polițistului. Brațul stâng al polițistului rutier întins orizontal înseamnă oprire pentru toți participanții la trafic care vin din fața polițistului.",
+      "paragraphs": [81, 82]
     },
     {
-      "întrebare": "Pot recupera mașina înainte să fie transportată la locul de depozitare, și ce costuri ar trebui să suport în acest caz?",
-      "răspuns": "Da, proprietarul sau utilizatorul vehiculului poate recupera mașina înainte să fie transportată la locul de depozitare, cu condiția să se prezinte la locul ridicării și să fie de acord cu suportarea cheltuielilor efectuate pentru operațiunea de ridicare. În acest caz, se plătește doar contravaloarea operațiunii de ridicare.",
-      "articole": ["829"]
+      "question": "Pot recupera mașina înainte să fie transportată la locul de depozitare, și ce costuri ar trebui să suport în acest caz?",
+      "answer": "Da, proprietarul sau utilizatorul vehiculului poate recupera mașina înainte să fie transportată la locul de depozitare, cu condiția să se prezinte la locul ridicării și să fie de acord cu suportarea cheltuielilor efectuate pentru operațiunea de ridicare. În acest caz, se plătește doar contravaloarea operațiunii de ridicare.",
+      "paragraphs": [829]
     },
     {
-      "întrebare": "Ce trebuie să includă o dispoziție de ridicare corectă și câte exemplare se fac?",
-      "răspuns": "Dispoziția de ridicare trebuie să includă cel puțin următoarele informații: data, ora și locul ridicării vehiculului; gradul profesional, numele și prenumele polițistului rutier, precum și unitatea din care face parte; temeiul juridic referitor la norma încălcată; înregistrarea foto sau video a staționării vehiculului; avarii vizibile pe vehicul; numărul de înmatriculare/înregistrare și marca vehiculului. Se întocmesc trei exemplare, care au destinații diferite.",
-      "articole": ["827", "828"]
+      "question": "Ce trebuie să includă o dispoziție de ridicare corectă și câte exemplare se fac?",
+      "answer": "Dispoziția de ridicare trebuie să includă cel puțin următoarele informații: data, ora și locul ridicării vehiculului; gradul profesional, numele și prenumele polițistului rutier, precum și unitatea din care face parte; temeiul juridic referitor la norma încălcată; înregistrarea foto sau video a staționării vehiculului; avarii vizibile pe vehicul; numărul de înmatriculare/înregistrare și marca vehiculului. Se întocmesc trei exemplare, care au destinații diferite.",
+      "paragraphs": [827, 828]
     },
     {
-      "întrebare": "Am luat o amendă contravențională. Ce se întâmplă dacă depun o plângere împotriva procesului-verbal de constatare și sancționare a contravenției?",
-      "răspuns": "Depunerea unei plângeri suspendă executarea amenzii și a sancțiunii contravenționale complementare dispuse prin procesul-verbal, începând de la data înregistrării plângerii la judecătorie.",
-      "articole": ["832", "833"]
+      "question": "Am luat o amendă contravențională. Ce se întâmplă dacă depun o plângere împotriva procesului-verbal de constatare și sancționare a contravenției?",
+      "answer": "Depunerea unei plângeri suspendă executarea amenzii și a sancțiunii contravenționale complementare dispuse prin procesul-verbal, începând de la data înregistrării plângerii la judecătorie.",
+      "paragraphs": [832, 833]
     },
     {
-      "întrebare": "Mi-au luat permisul. Ce se întâmplă dacă nu predau permisul de conducere în termenul prevăzut de lege?",
-      "răspuns": "Dacă permisul de conducere nu este predat în termenul prevăzut de lege, durata suspendării dreptului de a conduce se majorează de drept cu 30 de zile, fără a fi necesară vreo altă formalitate.",
-      "articole": ["838", "839"]
+      "question": "Mi-au luat permisul. Ce se întâmplă dacă nu predau permisul de conducere în termenul prevăzut de lege?",
+      "answer": "Dacă permisul de conducere nu este predat în termenul prevăzut de lege, durata suspendării dreptului de a conduce se majorează de drept cu 30 de zile, fără a fi necesară vreo altă formalitate.",
+      "paragraphs": [838, 839]
     }
   ]
   

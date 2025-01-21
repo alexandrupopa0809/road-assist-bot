@@ -15,10 +15,11 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
 class Utils:
-    def __init__(self, model_name, dataset):
+    def __init__(self, model_name, dataset, evaluation_dataset):
         self.model_name = model_name
         self.model = SentenceTransformer(model_name)
         self.dataset = dataset
+        self.evaluation_dataset = evaluation_dataset
 
     @staticmethod
     def write_json(output_file, data):
@@ -36,6 +37,11 @@ class Utils:
         texts = [par_object["text"] for par_object in paragraphs]
         logging.info(f"Loaded {len(texts)} texts.")
         return texts
+    
+    def _load_evaluation_data(self):
+        evaluation_data = self.read_json(self.evaluation_dataset)
+        logging.info(f"Loaded {len(evaluation_data)} evaluation questions from {self.evaluation_dataset}")
+        return evaluation_data
 
     def _compute_embeddings(self, texts, device):
         logging.info("Computing embeddings...")
