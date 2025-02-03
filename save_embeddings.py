@@ -12,7 +12,7 @@ logger.setLevel(logging.DEBUG)
 class EmbeddingSaver(Utils):
     def __init__(self, model_name, dataset, evaluation_dataset):
         super().__init__(model_name, dataset, evaluation_dataset)
-        self.emb_output_file = f"embeddings/text_{model_name}.pkl"
+        self.emb_output_file = f"embeddings_v1/text_{model_name}.pkl"
         self.use_mps = torch.backends.mps.is_available()
         self.device = "mps" if self.use_mps else "cpu"
 
@@ -30,7 +30,7 @@ class EmbeddingSaver(Utils):
 if __name__ == "__main__":
     saver = EmbeddingSaver(
         model_name="readerbench/RoBERT-base",
-        dataset="data/paragraphs.json",
-        evaluation_dataset="data/benchmark.json"
+        dataset="data/paragraphs_v1.json",
+        evaluation_dataset="data/benchmark_v1.json"
     )
     saver.process_and_save()

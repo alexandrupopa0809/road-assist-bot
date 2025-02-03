@@ -46,7 +46,7 @@ class Utils:
     def _compute_embeddings(self, texts, device):
         logging.info("Computing embeddings...")
         embeddings = self.model.encode(
-            texts, convert_to_numpy=False, device=device, show_progress_bar=True
+            texts, device=device, show_progress_bar=True
         )
         return embeddings
 
