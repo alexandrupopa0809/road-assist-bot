@@ -2,8 +2,9 @@ import logging
 import re
 
 from pypdf import PdfReader
+import pdfplumber
 
-from utils import write_json
+from utils import Utils
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -18,20 +19,15 @@ class PDFParser:
     def _extract_text_from_pdf(self):
         reader = PdfReader(self.pdf_file)
         text = ""
-        for page in reader.pages:
-            text += page.extract_text() + " " + f"[PAGE_NUM={page.page_number}]"
+        with pdfplumber.open(self.pdf_file) as pdf:
+            for page in pdf.pages:
+                text += page.extract_text() + " " if page.extract_text() else ""
+                if "243" in page.extract_text():
+                    print(page.extract_text())
         logging.info(
             f"Extracted text from {self.pdf_file}, {len(reader.pages)} pages processed."
         )
         return text
-
-    @staticmethod
-    def _extract_page_numbers(window_text):
-        pattern = r"\[PAGE_NUM=(\d+)\]"
-        page_numbers = re.findall(pattern, window_text)
-        updated_window_text = re.sub(pattern, "", window_text)
-        unique_int_pages = list(set([int(num) for num in page_numbers]))
-        return unique_int_pages, updated_window_text.strip()
 
     @staticmethod
     def _clean_text(text):
@@ -48,10 +44,8 @@ class PDFParser:
         while start_index <= len_pdf:
             end_index = min(start_index + window_size, len_pdf)
             window_text = " ".join(pdf_words[start_index:end_index])
-            page_nums, updated_window_text = self._extract_page_numbers(window_text)
             window_info = {
-                "text": updated_window_text,
-                "page_num": page_nums,
+                "text": window_text,
                 "window_num": len(windows) + 1,
             }
             windows.append(window_info)
@@ -62,12 +56,12 @@ class PDFParser:
         pdf_text = self._extract_text_from_pdf()
         cleaned_text = self._clean_text(pdf_text)
         paragraphs = self._split_into_sliding_paragraphs(cleaned_text)
-        write_json(self.json_output, paragraphs)
+        Utils.write_json(self.json_output, paragraphs)
         logging.info(
             f"Successfully processed {len(paragraphs)} paragraphs and saved to {self.json_output}."
         )
 
 
 if __name__ == "__main__":
-    pdf_parser = PDFParser("data/cod-rutier.pdf", "data/paragraphs.json")
+    pdf_parser = PDFParser("data/cod-rutier.pdf", "data/paragraphs_v1.json")
     pdf_parser.parse_and_save()
