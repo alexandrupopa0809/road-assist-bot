@@ -1,43 +1,92 @@
 [
     {
+      "question": "Ce obligație are conducătorul de vehicul la trecerea la nivel cu calea ferată curentă?",
+      "answer": "Conducătorul de vehicul este obligat să circule cu viteză redusă, să se asigure că nu se apropie un vehicul feroviar din stânga sau din dreapta și să oprească atunci când barierele sunt coborâte sau în mișcare, semnalele luminoase roșii și/sau sonore sunt în funcțiune sau întâlnește indicatorul specific.",
+      "keywords": ["conducător", "vehicul", "viteză", "reducedă", "asigurare", "feroviar", "barieră", "semnale", "roșii", "indicator"],
+      "paragraph": 102
+    },
+    {
+      "question": "Ce înseamnă dacă polițistul are brațul ridicat?",
+      "keywords": ["polițist", "braț", "drept", "ridicat", "vertical", "atenție", "oprire", "vehicule", "intersecție", "siguranță"],
+      "answer": "Dacă polițistul are brațul drept ridicat vertical, înseamnă „Atenție, oprire” pentru toate vehiculele care se apropie. Trebuie să oprească, exceptând cele deja în intersecție sau prea aproape pentru a opri în siguranță.",
+      "paragraph": 784
+    },
+    {
+      "question": "Ce informații oferă indicatorul „Presemnalizarea direcțiilor la o intersecție de drumuri din afara localităților” și unde este amplasat?",
+      "keywords": ["indicator", "presemnalizare", "direcții", "intersecție", "drumuri", "localități", "naționale", "județene"],
+      "answer": "Indicatorul „Presemnalizarea direcțiilor la o intersecție de drumuri din afara localităților” oferă informații despre direcțiile de urmat spre diverse localități și categoriile de drumuri (naționale, județene). Este amplasat înaintea intersecțiilor de drumuri naționale, județene și între acestea, pentru a ajuta conducătorii auto să se orienteze corect.",
+      "paragraph": 723
+    },
+    {
+      "question": "Care sunt condițiile în care se permite remorcarea unui autovehicul al cărui sistem de direcție nu funcționează?",
+      "keywords": ["autovehicul", "sistem", "direcție", "funcționează", "suspendare", "macara", "platformă", "remorcare"], 
+      "answer": "Se permite remorcarea unui autovehicul al cărui sistem de direcție nu funcționează doar dacă remorcarea se realizează prin suspendarea roților directoare ale autovehiculului remorcat cu o macara sau sprijinirea acestora pe o platformă de remorcare.",
+      "paragraph": 360
+    },
+    {
+      "question": "Care este rolul îndrumătorilor de circulație ai Ministerului Apărării Naționale?",
+      "keywords": ["îndrumători", "circulație", "Ministerul", "coloane", "participanți", "semnale", "oprire", "reducere", "mărire"],
+      "answer": "Îndrumătorii de circulație ai Ministerului Apărării Naționale însoțesc coloane militare și adresează participanților la trafic semnale de oprire, reducere sau mărire a vitezei.",
+      "paragraph": 792
+    },
+    {
+      "question": "Care sunt regulile pe care trebuie să le respecte pietonii atunci când circulă pe drumurile publice?",
+      "keywords": ["pietoni", "trotuar", "acostament", "stângă", "drum", "mers", "margine", "carosabil", "prioritate", "trecere"],
+      "answer": "Pietonii trebuie să circule pe trotuar. Dacă trotuarul lipsește, ei trebuie să se deplaseze pe acostamentul din partea stângă a drumului, în direcția de mers. Iar dacă și acostamentul lipsește, pietonii sunt obligaţi să circule cât mai aproape de marginea din partea stângă a părţii carosabile, tot în direcţia de mers.",
+      "paragraph": 412
+    },
+    {
+      "question": "Cum se realizează monitorizarea probei practice de conducere și care sunt excepțiile?",
+      "answer": "Proba practică se monitorizează atât video, cât și audio, folosind sisteme tehnice de monitorizare instalate pe autovehiculele folosite la susținerea probei practice. Pentru categoriile A1, A2 și A, aceste sisteme se instalează pe autovehiculul în care se află examinatorul. Prin excepție, pentru categoriile AM, A1, A2 și A, proba practică susținută în poligon nu se înregistrează audio sau video.",
+      "keywords": ["monitorizare", "audio", "video", "sisteme", "autovehicule", "examinator", "excepție", "categorii", "poligon"],
+      "paragraph": 238
+    },
+    {
       "question": "Vreau să o iau pe prietena mea de acasă. Am văzut că pe strada ei se lucrează și a apărut un indicator de drum îngustat. Am voie să opresc în fața casei ei ca să o iau?",
       "answer": "Nu, pe sectoarele de drum unde este instalat indicatorul cu semnificația „Drum îngustat” se interzice manevra de oprire voluntară a vehiculelor.",
-      "paragraphs": [432, 433, 434]
+      "keywords": ["drum", "îngustat", "indicator", "oprire", "voluntară", "manevră", "vehicule", "interzice", "sectoare", "trafic"],
+      "paragraph": 663
     },
     {
       "question": "Dacă depășesc pe linie continuă îmi iau permisul sau primesc doar amendă?",
       "answer": "Nerespectarea regulilor privind depășirea constituie contravenție și se sancționează cu amendă prevăzută în clasa a 3-a de sancțiuni și cu suspendarea exercitării dreptului de a conduce pentru o perioadă de 60 de zile.",
-      "paragraphs": [675, 676, 677, 678]
+      "keywords": ["contravenție", "amendă", "clasa", "sancțiuni", "suspendare", "exercitare", "drept", "conducere", "perioadă", "60", "zile"],
+      "paragraph": 492
     },
     {
       "question": "Ar trebui să las poliția să treacă dacă are girofarul pornit, dar nu are și sirena?",
       "answer": "Nu, dacă girofarul este pornit, dar nu există semnale sonore, nu ești obligat să îi acorzi prioritate.",
-      "paragraphs": [92, 93]
+      "keywords": ["girofar", "pornit", "semnale", "sonore", "prioritate", "obligat"],
+      "paragraph": 77
     },
     {
       "question": "Ce înseamnă dacă polițistul are brațul întins paralel cu pământul?",
       "answer": "Brațul drept al polițistului rutier întins orizontal înseamnă oprire pentru toți participanții la trafic care vin din spatele polițistului. Brațul stâng al polițistului rutier întins orizontal înseamnă oprire pentru toți participanții la trafic care vin din fața polițistului.",
-      "paragraphs": [81, 82]
+      "keywords": ["braț", "drept", "polițist", "întins", "orizontal", "oprire", "trafic", "spate", "stâng", "față"],
+      "paragraph": 68
     },
     {
       "question": "Pot recupera mașina înainte să fie transportată la locul de depozitare, și ce costuri ar trebui să suport în acest caz?",
       "answer": "Da, proprietarul sau utilizatorul vehiculului poate recupera mașina înainte să fie transportată la locul de depozitare, cu condiția să se prezinte la locul ridicării și să fie de acord cu suportarea cheltuielilor efectuate pentru operațiunea de ridicare. În acest caz, se plătește doar contravaloarea operațiunii de ridicare.",
-      "paragraphs": [829]
+      "keywords": ["proprietar", "recupera", "mașină", "transport", "depozitare", "ridicare", "cheltuieli", "operațiune", "contravaloare"],
+      "paragraph": 645
     },
     {
       "question": "Ce trebuie să includă o dispoziție de ridicare corectă și câte exemplare se fac?",
+      "keywords": ["dispoziție", "ridicare", "informații", "data", "ora", "locul", "vehicul", "polițist", "înregistrare", "temei"],
       "answer": "Dispoziția de ridicare trebuie să includă cel puțin următoarele informații: data, ora și locul ridicării vehiculului; gradul profesional, numele și prenumele polițistului rutier, precum și unitatea din care face parte; temeiul juridic referitor la norma încălcată; înregistrarea foto sau video a staționării vehiculului; avarii vizibile pe vehicul; numărul de înmatriculare/înregistrare și marca vehiculului. Se întocmesc trei exemplare, care au destinații diferite.",
-      "paragraphs": [827, 828]
+      "paragraph": 644
     },
     {
       "question": "Am luat o amendă contravențională. Ce se întâmplă dacă depun o plângere împotriva procesului-verbal de constatare și sancționare a contravenției?",
+      "keywords": ["plângere", "suspendă", "executare", "amendă", "sancțiune", "contravențională", "proces-verbal", "înregistrare", "judecătorie"],
       "answer": "Depunerea unei plângeri suspendă executarea amenzii și a sancțiunii contravenționale complementare dispuse prin procesul-verbal, începând de la data înregistrării plângerii la judecătorie.",
-      "paragraphs": [832, 833]
+      "paragraph": 648
     },
     {
       "question": "Mi-au luat permisul. Ce se întâmplă dacă nu predau permisul de conducere în termenul prevăzut de lege?",
+      "keywords": ["permis", "conducere", "termen", "suspendare", "drept", "conduce", "majorare", "30", "zile"],
       "answer": "Dacă permisul de conducere nu este predat în termenul prevăzut de lege, durata suspendării dreptului de a conduce se majorează de drept cu 30 de zile, fără a fi necesară vreo altă formalitate.",
-      "paragraphs": [838, 839]
+      "paragraph": 546
     }
   ]
-  
